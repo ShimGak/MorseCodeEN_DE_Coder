@@ -4,44 +4,49 @@ namespace MorseCodeEN_DE_Coder
     {
         static void Main(string[] args)
         {
-            var dictionary = new Dictionary < string, string>();
-            dictionary.Add("1", ".----");
-            dictionary.Add("2", "..---");
-            dictionary.Add("3", "...--");
-            dictionary.Add("4", "....-");
-            dictionary.Add("5", ".....");
-            dictionary.Add("6", "-....");
-            dictionary.Add("7", "--...");
-            dictionary.Add("8", "---..");
-            dictionary.Add("9", "----.");
-            dictionary.Add("0", "-----");
-            dictionary.Add(" ", " ");
-            dictionary.Add("a", ".-");
-            dictionary.Add("b", "-...");
-            dictionary.Add("c", "-.-.");
-            dictionary.Add("d", "-..");
-            dictionary.Add("e", ".");
-            dictionary.Add("f", "..-.");
-            dictionary.Add("g", "--.");
-            dictionary.Add("h", "....");
-            dictionary.Add("i", "..");
-            dictionary.Add("j", ".---");
-            dictionary.Add("k", "-.-");
-            dictionary.Add("l", ".-..");
-            dictionary.Add("m", "--");
-            dictionary.Add("n", "-.");
-            dictionary.Add("o", "---");
-            dictionary.Add("p", ".--.");
-            dictionary.Add("q", "--.-");
-            dictionary.Add("r", ".-.");
-            dictionary.Add("s", "...");
-            dictionary.Add("t", "-");
-            dictionary.Add("u", "..-");
-            dictionary.Add("v", "...-");
-            dictionary.Add("w", ".--");
-            dictionary.Add("x", "-..-");
-            dictionary.Add("y", "-.--");
-            dictionary.Add("z", "--..");
+            var morse = new Dictionary < char, string>();
+            morse.Add("1", ".----");
+            morse.Add("2", "..---");
+            morse.Add("3", "...--");
+            morse.Add("4", "....-");
+            morse.Add("5", ".....");
+            morse.Add("6", "-....");
+            morse.Add("7", "--...");
+            morse.Add("8", "---..");
+            morse.Add("9", "----.");
+            morse.Add("0", "-----");
+
+            morse.Add(" ", " ");
+
+            morse.Add("a", ".-");
+            morse.Add("b", "-...");
+            morse.Add("c", "-.-.");
+            morse.Add("d", "-..");
+            morse.Add("e", ".");
+            morse.Add("f", "..-.");
+            morse.Add("g", "--.");
+            morse.Add("h", "....");
+            morse.Add("i", "..");
+            morse.Add("j", ".---");
+            morse.Add("k", "-.-");
+            morse.Add("l", ".-..");
+            morse.Add("m", "--");
+            morse.Add("n", "-.");
+            morse.Add("o", "---");
+            morse.Add("p", ".--.");
+            morse.Add("q", "--.-");
+            morse.Add("r", ".-.");
+            morse.Add("s", "...");
+            morse.Add("t", "-");
+            morse.Add("u", "..-");
+            morse.Add("v", "...-");
+            morse.Add("w", ".--");
+            morse.Add("x", "-..-");
+            morse.Add("y", "-.--");
+            morse.Add("z", "--..");
+
+            Console.WriteLine(morse['a'])
+            
 
         }
     }
